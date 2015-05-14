@@ -1,0 +1,5 @@
+<%= div_for document do %>
+  <%= link_to document.user.email, document.user %>
+  <%= document.title %>
+  <%= link_to time_ago_in_words(document.created_at), document %>
+<% end %>
