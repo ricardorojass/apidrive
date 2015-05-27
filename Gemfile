@@ -11,7 +11,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'google_drive'
+gem 'google-api-client'
 gem 'unirest'
+gem 'figaro'
 
 group :development, :test do
   gem 'byebug'
