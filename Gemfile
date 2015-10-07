@@ -14,10 +14,13 @@ gem 'google_drive'
 gem 'google-api-client'
 gem 'unirest'
 gem 'figaro'
+gem 'paperclip', '4.3.1'
 
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
+
+gem 'pry-rails', :group => :development
 
